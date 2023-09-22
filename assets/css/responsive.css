@@ -1,0 +1,59 @@
+@media screen and (max-width: 920px) {
+    #schedule {
+        margin-top:20px !important;
+    }
+    form {
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    p, a,li, label, input, textarea,i, .btn {
+        font-size: 14px !important;
+    }
+    h2,h1 {
+        font-size:21px !important;
+    }
+    h3 {
+        font-size:17px;
+    }
+    #services .card {
+        height: 390px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #about {
+        padding:20px !important;
+    }
+    .about-content img {margin-top:15px !important;
+    width: 65% !important;}
+}
+@media screen and (max-width: 480px) {
+    p, a,li, label, input, textarea,i, .btn {
+        font-size: 12px !important;
+    }
+    h2,h1 {
+        font-size:19px !important;
+    }
+    h3 {
+        font-size:15px;
+    }
+    #about {
+        padding:17px !important;
+    }
+    #schedule {margin-top:15px !important;}
+    .about-content img {margin-top:17px !important;
+    width: 65% !important;}
+}
+@media screen and (max-width: 425px) {
+    #services .card {
+        height: 345px;
+    }
+    .carousel-caption {
+        display: none;
+    }
+}
+@media screen and (max-width: 320px) {
+    #services .card {
+        height: 330px;
+    }
+}
